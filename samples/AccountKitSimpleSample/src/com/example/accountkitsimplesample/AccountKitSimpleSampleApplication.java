@@ -36,6 +36,7 @@ public class AccountKitSimpleSampleApplication extends Application {
             enableStrictMode();
         }
 
+        // Workshop slide 16
         AccountKit.initialize(getApplicationContext());
     }
 

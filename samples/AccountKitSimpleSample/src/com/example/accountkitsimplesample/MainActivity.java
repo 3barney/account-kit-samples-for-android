@@ -78,6 +78,7 @@ public class MainActivity extends Activity {
             final Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
+        // Workshop slide 22 - 25
         if (requestCode != FRAMEWORK_REQUEST_CODE) {
             return;
         }
@@ -113,11 +114,13 @@ public class MainActivity extends Activity {
     }
 
     private void onLogin(final LoginType loginType) {
+        // Workshop slide 18 - 20, 30 - 31
         final Intent intent = new Intent(this, AccountKitActivity.class);
         final AccountKitConfiguration.AccountKitConfigurationBuilder configurationBuilder
                 = new AccountKitConfiguration.AccountKitConfigurationBuilder(
                 loginType,
                 AccountKitActivity.ResponseType.TOKEN);
+        configurationBuilder.setFacebookNotificationsEnabled(false); // Workshop slide 34
         final AccountKitConfiguration configuration = configurationBuilder.build();
         intent.putExtra(
                 AccountKitActivity.ACCOUNT_KIT_ACTIVITY_CONFIGURATION,

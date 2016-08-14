@@ -1,5 +1,26 @@
+MEA Workshop 2016
+=================
+
+This repository has been forked from fbsamples (https://github.com/fbsamples/account-kit-samples-for-android) in preparation for the MEA workshop 2016. 
+
+Here's a list of minor changes to reference the Account Kit Simple Sample code to the presentation deck:
+ - samples/AccountKitSimpleSample/res/values/strings.xml
+ - samples/AccountKitSimpleSample/src/com/example/accountkitsimplesample/AccountKitSimpleSampleApplication.java
+ - samples/AccountKitSimpleSample/src/com/example/accountkitsimplesample/MainActivity.java
+ - samples/AccountKitSimpleSample/src/com/example/accountkitsimplesample/TokenActivity.java
+ 
+By slide order for easy reference:
+ - 15: strings.xml
+ - 16: AccountKitSimpleSampleApplication.java onCreate()
+ - 18 - 20: MainActivity.java onLogin()
+ - 22 - 25: MainActivity.java onActivityResult()
+ - 26 - 29: TokenActivity.java onResume()
+ - 30 - 31: MainActivity.java onLogin()
+
+
+
 Account Kit SDK for Android Samples
-========================
+===================================
 
 This repository contains a collection of samples demonstrating how to integrate the Account Kit SDK.
 

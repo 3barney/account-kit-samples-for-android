@@ -20,10 +20,10 @@
 
 <resources>
     <string name="action_bar_title_hello">Hello</string>
-    <string name="ak_login_protocol_scheme">ak964234977027033</string>
-    <string name="app_id">964234977027033</string>
-    <string name="app_name">Account Kit Simple Sample</string>
-    <string name="client_token">799de49b357b77afede08488ced2f721</string>
+    <string name="ak_login_protocol_scheme">ak{YOUR_APP_ID}</string><!-- https://developers.facebook.com/docs/accountkit/android#emaillogin -->
+    <string name="app_id">Workshop slide 15 - YOUR_APP_ID from developers.facebook.com</string>
+    <string name="app_name">Workshop slide 15 - YOUR_APP_NAME from developers.facebook.com</string>
+    <string name="client_token">Workshop slide 15 - YOUR_CLIENT_TOKEN from developers.facebook.com</string>
     <string name="permissions_get_accounts_message">
         Grant permission to read your email address from your device to pre-fill.
     </string>

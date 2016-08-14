@@ -53,6 +53,7 @@ public class TokenActivity extends Activity {
     protected void onResume() {
         super.onResume();
 
+        // Workshop slide 26 - 29
         AccountKit.getCurrentAccount(new AccountKitCallback<Account>() {
             @Override
             public void onSuccess(final Account account) {
